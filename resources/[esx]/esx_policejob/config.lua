@@ -209,11 +209,14 @@ Config.AuthorizedVehicles = {
 		sergeant = {},
 
 		lieutenant = {
-			{model = 'polmav', props = {modLivery = 0}, price = 200000}
+			{model = 'polmav', props = {modLivery = 0}, price = 200000},
+			{model = 'polmav2', props = {modLivery = 0}, price = 200000}
 		},
 
 		boss = {
-			{model = 'polmav', props = {modLivery = 0}, price = 100000}
+			{model = 'polmav', props = {modLivery = 0}, price = 100000},
+			{model = 'policeasd', props = {modLivery = 0}, price = 100000},
+			{model = 'supervolito', props = {modLivery = 0}, price = 100000}
 		}
 	}
 }
