@@ -1,0 +1,6 @@
+--2021-06-04 22:35:56--  https://github-releases.githubusercontent.com/118830523/2f1bf600-bd5a-11eb-9f1c-e229d8151c5f?X-Amz-Algorithm=AWS4-HMAC-SHA256
+Resolving github-releases.githubusercontent.com (github-releases.githubusercontent.com)... 185.199.110.154, 185.199.109.154, 185.199.111.154, ...
+Connecting to github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.110.154|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2021-06-04 22:35:56 ERROR 400: Bad Request.
+
