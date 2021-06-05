@@ -295,13 +295,20 @@ function RemoveItemsAfterRPDeath()
 		end
 
 		ESX.TriggerServerCallback('esx_ambulancejob:removeItemsAfterRPDeath', function()
-			local formattedCoords = {
-				x = Config.RespawnPoint.coords.x,
-				y = Config.RespawnPoint.coords.y,
-				z = Config.RespawnPoint.coords.z
-			}
+			-- local formattedCoords = {
+			-- 	x = Config.RespawnPoint.coords.x,
+			-- 	y = Config.RespawnPoint.coords.y,
+			-- 	z = Config.RespawnPoint.coords.z
+			-- }
 
 			ESX.SetPlayerData('loadout', {})
+			local coords = GetEntityCoords(PlayerPedId())
+			local formattedCoords = {
+				x = ESX.Math.Round(coords.x, 1),
+				y = ESX.Math.Round(coords.y, 1),
+				z = ESX.Math.Round(coords.z, 1)
+			}
+
 			RespawnPed(PlayerPedId(), formattedCoords, Config.RespawnPoint.heading)
 
 			StopScreenEffect('DeathFailOut')
