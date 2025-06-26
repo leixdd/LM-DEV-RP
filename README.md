@@ -1,5 +1,7 @@
-# cfx-server-data
-_The data repository for Cfx.re servers_
+# LMDEV GTA V RP Server 
+This is a hobby project in GTAV RP that is intended to provide practice for LUA, JavaScript, and server deployment automation.
+
+This project is exclusively a pet/hobby project that allows us to hone and enhance our programming and server management skills.
 
 ## Usage
 1. Make sure to `git clone`. Don't "Download ZIP", as that'll make it _much_ harder to update to newer versions.
